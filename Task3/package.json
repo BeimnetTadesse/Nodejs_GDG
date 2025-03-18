@@ -1,0 +1,41 @@
+{
+  "name": "gdg-nodejs-course",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  },
+  "version": "1.0.0",
+  "description": "Welcome to the **GDG Node.js Course**! This project is a mini-project designed for Node.js beginners to help you understand the fundamentals of building a backend for a blogging website. Below, you'll find an overview of the project structure, key concepts, and instructions to get started.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
